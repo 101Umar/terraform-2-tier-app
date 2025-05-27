@@ -1,0 +1,31 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore logs and backups
+*.log
+*.bak
+*.backup
+
+# Ignore sensitive generated key files
+key/
+*.pem
+*.key
+*.pub
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore AWS credentials (just in case)
+.aws/
